@@ -35,8 +35,9 @@ public class Initialize {
      * @param args The command line arguments
      */
     public static void main(final String[] args) {
+    	// Set the Java security policy location and enable the security manager
+    	System.setProperty("java.security.policy", System.getProperty("user.dir") + "\\appsecurity.policy");
     	System.setSecurityManager(new SecurityManager());
-    	// System.setProperty("java.security.policy", "\\src\\appsecurity.policy");
     	
         // Launch the 1st payload and log that the application was started.
         Logging logging = new Logging();
