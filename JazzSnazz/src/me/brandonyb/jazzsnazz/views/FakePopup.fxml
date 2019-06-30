@@ -13,7 +13,7 @@
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <ImageView id="logo" fitHeight="25.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../assets/Norton_logo.png" />
+            <Image url="@../../../../../assets/Norton_logo.png" />
          </image>
       </ImageView>
       <Pane id="redStripe" layoutY="49.0" prefHeight="31.0" prefWidth="290.0" style="-fx-background-color: #ff0000;">
